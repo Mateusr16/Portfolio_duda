@@ -15,7 +15,7 @@ const unsplash = (id, largura = 900) =>
   `https://images.unsplash.com/photo-${id}?w=${largura}&q=75&auto=format&fit=crop`;
 
 const FOTOS = {
-  retrato: unsplash("1534528741775-53994a69daeb", 1000),
+  retrato: unsplash("1524504388940-b1c1722653e1", 1000),
   camera: unsplash("1516035069371-29a1b244cc32"),
   edicao: unsplash("1574717024653-61fd2cf4d44d"),
   celular: unsplash("1600096194534-95cf5ece04cf"),
@@ -24,7 +24,7 @@ const FOTOS = {
   loja: unsplash("1441986300917-64674bd600d8"),
   cafe: unsplash("1495474472287-4d71bcdd2085"),
   restaurante: unsplash("1414235077428-338989a2e8c0"),
-  beleza: unsplash("1556228720-195a672e8a03"),
+  beleza: unsplash("1596462502278-27bfdc403348"),
   salao: unsplash("1522337360788-8b13dee7a37e"),
   academia: unsplash("1517836357463-d25dfeac3438"),
 };
@@ -43,9 +43,9 @@ const PERFIL = {
 
 // Abertura do site: os quadros passam sozinhos, como em um story.
 const QUADROS_ABERTURA = [
-  { foto: FOTOS.celular, descricao: "Mão segurando um celular abaixo de uma notificação de curtida" },
   { foto: FOTOS.camera, descricao: "Câmera fotográfica profissional" },
   { foto: FOTOS.edicao, descricao: "Linha do tempo de um programa de edição de vídeo" },
+  { foto: FOTOS.celular, descricao: "Mão segurando um celular abaixo de uma notificação de curtida" },
 ];
 
 const PROJETOS = [
@@ -74,7 +74,7 @@ const PROJETOS = [
   },
   {
     titulo: "Um mês de conteúdo",
-    cliente: "Marca de skincare (exemplo)",
+    cliente: "Marca de beleza (exemplo)",
     categoria: "Social Media",
     formato: "Planejamento e gestão",
     capa: FOTOS.beleza,
