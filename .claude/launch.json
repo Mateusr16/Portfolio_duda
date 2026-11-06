@@ -4,7 +4,7 @@
     {
       "name": "portfolio",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5173", "--directory", "C:/Users/Mateus/Desktop/Duda"],
+      "runtimeArgs": ["-m", "http.server", "5173", "--directory", "C:/Users/Mateus/Desktop/Portfolio_duda"],
       "port": 5173
     }
   ]

@@ -15,7 +15,7 @@ const unsplash = (id, largura = 900) =>
   `https://images.unsplash.com/photo-${id}?w=${largura}&q=75&auto=format&fit=crop`;
 
 const FOTOS = {
-  retrato: unsplash("1524504388940-b1c1722653e1", 1000),
+  retrato: "fotos/Eu.jpg",
   camera: unsplash("1516035069371-29a1b244cc32"),
   edicao: unsplash("1574717024653-61fd2cf4d44d"),
   celular: unsplash("1600096194534-95cf5ece04cf"),
