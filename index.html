@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maria Eduarda Cruz | Storymaker, Social Media e Videomaker</title>
+  <meta name="description" content="Portfólio de Maria Eduarda Cruz: stories, gestão de redes sociais e vídeos verticais para marcas.">
+  <meta property="og:title" content="Maria Eduarda Cruz | Storymaker, Social Media e Videomaker">
+  <meta property="og:description" content="Stories, redes sociais e vídeos verticais para marcas.">
+  <meta name="theme-color" content="#1f2bd8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f2bd8'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23ff5a1f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <a class="topo__marca" href="#inicio">Duda Cruz</a>
+    <nav aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="abertura" id="inicio">
+    <div class="abertura__texto">
+      <p class="rotulo"><span class="rec" aria-hidden="true"></span>Portfólio <span data-ano></span></p>
+      <h1>Maria<br>Eduarda<br>Cruz</h1>
+      <p class="abertura__frase">Histórias que prendem a atenção em poucos segundos, feitas para quem assiste com o celular na mão.</p>
+      <ul class="abertura__areas">
+        <li>Storymaker</li>
+        <li>Social Media</li>
+        <li>Videomaker</li>
+      </ul>
+    </div>
+    <div class="story" data-story-abertura aria-hidden="true">
+      <div class="story__barras"></div>
+      <div class="story__quadros"></div>
+      <p class="story__tempo">00:00:<span data-tempo>00</span></p>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <section class="sobre" id="sobre">
+      <figure class="sobre__foto">
+        <img data-retrato alt="" loading="lazy">
+      </figure>
+      <div class="sobre__texto">
+        <p class="rotulo">Sobre</p>
+        <h2>Oi, eu sou a Duda. Crio conteúdo que parece conversa, não anúncio.</h2>
+        <p>Tenho <span data-idade>19</span> anos e cresci vendo as redes mudarem de semana em semana. Hoje uso esse olhar para ajudar marcas a aparecer com naturalidade: planejo o que vai ao ar, gravo no lugar onde tudo acontece e edito pensando em quem está rolando a tela.</p>
+        <p>Acompanho o projeto da ideia à publicação, para que os stories, o feed e os vídeos contem a mesma história.</p>
+        <dl class="sobre__dados">
+          <div><dt>Idade</dt><dd><span data-idade>19</span> anos</dd></div>
+          <div><dt>Formato favorito</dt><dd>Vertical, 9:16</dd></div>
+          <div><dt>Atendimento</dt><dd>Presencial e on-line</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <p class="rotulo">Serviços</p>
+      <h2>Três frentes, uma só história.</h2>
+      <ol class="servicos__lista">
+        <li>
+          <span class="servicos__num">01</span>
+          <h3>Storymaker</h3>
+          <p>Cobertura de eventos, bastidores e rotina da marca, em tempo real ou com programação.</p>
+          <ul>
+            <li>Roteiro de sequências</li>
+            <li>Cobertura presencial</li>
+            <li>Enquetes e interação</li>
+          </ul>
+        </li>
+        <li>
+          <span class="servicos__num">02</span>
+          <h3>Social Media</h3>
+          <p>Planejamento e rotina de publicação para o perfil manter a constância e a própria voz.</p>
+          <ul>
+            <li>Calendário editorial</li>
+            <li>Legendas e roteiros</li>
+            <li>Relatório mensal</li>
+          </ul>
+        </li>
+        <li>
+          <span class="servicos__num">03</span>
+          <h3>Videomaker</h3>
+          <p>Reels e vídeos verticais, da captação à edição, com ritmo e cortes pensados para reter.</p>
+          <ul>
+            <li>Captação com celular e câmera</li>
+            <li>Edição e legendas</li>
+            <li>Vídeos para anúncios</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="trabalhos" id="trabalhos">
+      <div class="trabalhos__topo">
+        <div>
+          <p class="rotulo">Trabalhos</p>
+          <h2>Toque para assistir.</h2>
+        </div>
+        <div class="filtros" role="group" aria-label="Filtrar trabalhos por área" data-filtros></div>
+      </div>
+      <ul class="grade" data-grade></ul>
+    </section>
+
+    <section class="processo">
+      <p class="rotulo">Como funciona</p>
+      <h2>Do briefing ao ar, sem mistério.</h2>
+      <ol class="processo__passos">
+        <li><h3>Conversa</h3><p>Entendo a marca, o público e o objetivo do projeto.</p></li>
+        <li><h3>Roteiro</h3><p>Defino temas, formatos e o que vai ser gravado.</p></li>
+        <li><h3>Gravação</h3><p>Capto no local, com a orientação de quem conhece o formato.</p></li>
+        <li><h3>Entrega</h3><p>Edito, envio para aprovação e deixo tudo pronto para publicar.</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="contato" id="contato">
+    <p class="rotulo">Contato</p>
+    <h2>Vamos contar a história da sua marca?</h2>
+    <a class="contato__email" data-email></a>
+    <ul class="contato__redes">
+      <li><a data-instagram></a></li>
+      <li><a data-whatsapp></a></li>
+    </ul>
+    <p class="contato__fim">© <span data-ano></span> Maria Eduarda Cruz</p>
+  </footer>
+
+  <dialog class="visor" data-visor aria-label="Visualizador do projeto">
+    <div class="visor__palco">
+      <div class="story__barras" data-visor-barras></div>
+      <div class="visor__cabecalho">
+        <div>
+          <p class="visor__titulo" data-visor-titulo></p>
+          <p class="visor__cliente" data-visor-cliente></p>
+        </div>
+        <button class="visor__botao" type="button" data-visor-pausar aria-label="Pausar">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+        </button>
+        <button class="visor__botao" type="button" data-visor-fechar aria-label="Fechar">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="visor__midia" data-visor-midia></div>
+      <p class="visor__legenda" data-visor-legenda aria-live="polite"></p>
+      <button class="visor__zona visor__zona--anterior" type="button" data-visor-anterior aria-label="Quadro anterior"></button>
+      <button class="visor__zona visor__zona--proximo" type="button" data-visor-proximo aria-label="Próximo quadro"></button>
+    </div>
+  </dialog>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
